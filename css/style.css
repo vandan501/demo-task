@@ -579,7 +579,7 @@ body {
   top: 80px;
   width: 100%;
   background-color: #f8f7f2;
-  height: 1322px;
+  height: min-content;
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -727,6 +727,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #eee8e2;
 }
 .sec-4-right-side-card h1 {
   width: 128.73px;
@@ -755,10 +756,16 @@ body {
 .frist-2nd-cards {
   position: relative;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
 }
 .third-4th-cards {
   position: relative;
   bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
 }
 .hero-section4 .register-now {
   font-family: Open Sans;
