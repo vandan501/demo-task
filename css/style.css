@@ -4,6 +4,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   width: 100%;
   font-family: "Open Sans";
@@ -228,6 +231,7 @@ body {
   border: none;
   gap: 7px;
   border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
   box-shadow: 0px 8px 16px 0px #92b8ff33;
 
   /* height: min-content; */
@@ -286,6 +290,9 @@ body {
   display: flex;
   justify-content: left;
   align-items: start;
+}
+.card-heading:hover {
+  color: #68e1ea;
 }
 .card-details {
   display: flex;
@@ -684,10 +691,11 @@ body {
   display: flex;
 }
 .review-person-details img {
-  width: 55px;
-  height: 55px;
+  width: 75px;
+  height: 75px;
   border-radius: 27.5px;
-  box-shadow: 0px 8px 16px 0px #00000026;
+  /* box-shadow: 2px 1px black; */
+  /* border: 1px solid red; */
 }
 .review-person-details .info {
   display: flex;
